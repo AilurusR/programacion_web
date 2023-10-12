@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <section> <!--Inicia la sección dedicada a la intruducción de html-->
+            <h2>
+                HTML
+            </h2>
+            <article> <!--Da una vista general de html y su estructura-->
+                <div> <!--que es-->
+                    <h3>
+                        ¿Qué es HTML?
+                    </h3>
+                    <ul>
+                        <li>
+                            Es un lenguaje de marcado de hipertexto (Hyper Text Markup Lenguaje).
+                        </li>
+                        <li>
+                            HTML no es un lenguaje de programción, es un lenguaje de estructura.
+                        </li>
+                        <li>
+                            Cada etiqueta le dice al navegador y a los motores de búsqueda cuál es la estructura de los documentos, elementos, organización, etc.
+                        </li>
+                    </ul>
+                </div>
+                <article> <!--Historia de html-->
+                    <h3>
+                        Breve historia de HTML
+                    </h3>
+                    <ul>
+                        <li>
+                            1989: Inicio de su desarrollo.
+                        </li>
+                        <li>
+                            1991: Lanzamiento de la web (se basa en tres conceptos: http, html y url).
+                        </li>
+                        <li>
+                            1992: Lanzamiento de HTML (Como precursor tuvo a SMGL, creado por Tim Bernes Lee).
+                        </li>
+                        <li>
+                            1994: Creación de la W3C (Consorcio que define los estandares de la web).
+                        </li>
+                        <li>
+                            1998: HTML 4.
+                        </li>
+                        <li>
+                            1999: HTML 4.1 / XHTML. (Actualización de html 4 pero con una notación más rigida basada en xml).
+                        </li>
+                        <li>
+                            2004: Creación de la WHATWG, consorcio que tomo el proyecto html 4 (de forma independiente) y lo continuo.
+                        </li>
+                        <li>
+                            2008: HTML 5, lanzado por WHATGW.
+                        </li>
+                        <li>
+                            2014: Estandar de HTML 5, lanzado de forma oficial por W3C.
+                        </li>
+                    </ul>
+                </article>
+                <div> <!--estructura de una etiqueta-->
+                    <h3>
+                        Estructura basica de una etiqueta:
+                    </h3>
+                    <p>
+                        Todo en HTML es una etiqueta, y cada etiqueta sirve para colocar contenido especifico. Asi la etiqueta &lt;img&gt; es la etiqueta destinada a contener un recurso de tipo imagen.
+
+                        En su mayoria las etiquetas estan compuestas de tres partes:
+                        <ul>
+                            <li>
+                                Etiqueta de apertura.
+                            </li>
+                            <li>
+                                Contenido.
+                            </li>
+                            <li>
+                                Etiqueta de cierre.
+                            </li>
+                        </ul>
+                        &lt;h1&gt; <br>
+                            Contenido de la etiqueta.<br>
+                        &lt;/h1&gt; <br>
+                    </p>
+                </div>
+                <div> <!--estructura de un documento-->
+                    <h3>
+                        Estructura basica de un documento HTML:
+                    </h3>
+                    <p>
+                        Cada pestaña o ruta de una página web es un documento de texto plano con extención ".html", por convención a la ruta raíz (es decir, la primer página que se carga al acceder a dicha pagina web) se suele llamar "index.html". Esta convención se respeta ya que los navegadores web por default buscan y cargan este archivo al entrar en dicha página web.
+
+                        La estructura de un archivo .html sin contenido, o recien creado se ve de la siguien forma: <br>
+                        <br>
+                        &lt;!DOCTYPE html&gt; <br>
+                        &lt;html lang="en"&gt; <br>
+                            &lt;head&gt; <br>
+                                &lt;title&gt;Document&lt;/title&gt; <br>
+                            &lt;/head&gt; <br>
+                            &lt;body&gt; <br>
+                            &lt;/body&gt; <br>
+                        &lt;/html&gt; <br>
+                        <br>
+                    </p>
+                    <p>
+                        Los significados de estas etiquetas son los siguientes:
+                    </p>
+                        <ul>
+                            <li>
+                                !DOCTYPE html: Esta etiqueta indica el tipo de documento. Es un preámbulo requerido. Los tipos de documento actúan como vínculos a un conjunto de reglas que el código HTML de la página debía seguir para ser considerado bueno, lo que puede significar la verificación automática de errores y algunas otras cosas de utilidad.
+                            </li>
+                            <li>
+                                html: Este elemento encierra todo el contenido de la página entera y, a veces, se le conoce como el elemento raíz (root element). El atributo "lang="en"" indica el idioma en que estará el contenido de la página.
+                            </li>
+                            <li>
+                                head: Este elemento actúa como un contenedor de todo aquello que quieres incluir en la página HTML que no es contenido visible por los visitantes de la página. Incluye cosas como palabras clave (keywords), una descripción de la página que quieres que aparezca en resultados de búsquedas, código CSS para dar estilo al contenido, declaraciones del juego de caracteres, etc.
+                            </li>
+                            <li>
+                                title: Establece el título de tu página, que es el título que aparece en la pestaña o en la barra de título del navegador cuando la página es cargada 
+                            </li>
+                            <li>
+                                body: Encierra todo el contenido que deseas mostrar a los usuarios web que visiten tu página, ya sea texto, imágenes, videos, juegos, pistas de audio reproducibles, y demás.
+                            </li>
+                        </ul>
+                </div>
+                <div> <!--que es un comentario-->
+                    <h3>
+                        Comentarios en HTML
+                    </h3>
+                    <p>
+                        Los comentarios en html se indican de la siguiente manera: <br>
+                        &lt;!--"el comentario que quieras poner..."--&gt; <br>
+                        <br>
+                        La utilidad de los comentarios radica en dejar información util para ti u otras personas que ayude a entender el código que acabas de escribrir, quién lo escribio u otras cosas.
+                    </p>
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
